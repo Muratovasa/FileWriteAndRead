@@ -139,7 +139,7 @@ public class Main {
             }
         }
 
-        try (BufferedReader br = new BufferedReader(new FileReader("temp.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/svetlanapustovit/Games/temp/temp.txt"))) {
             String s;
             while ((s = br.readLine()) != null) {
                 System.out.println(s);
